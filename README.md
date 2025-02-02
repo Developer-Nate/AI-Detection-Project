@@ -54,13 +54,13 @@ Step 4: Detection program Generation prompt:
 Create a Python program to determine if a text entry is AI-generated or human-generated. The program should analyze the following traits: Repetition or redundancy, Perfect Grammar and Syntax, Unusual Word Choice. Use any available text processing libraries as needed. Please include detailed comments explaining each step of the code.
 
 Step 5: Program Testing
-Text Entry	Prediction	Actual Result	Correct
-Text Entry 1 (AI)	Human Generated	Human Generated	Yes
-Text Entry 2 (AI)	Human Generated	Human Generated	Yes
-Text Entry 3 (AI)	Human Generated	Human Generated	Yes
-Text Entry 4 (HUMAN)	Human Generated	Human Generated	Yes
-Text Entry 5 (HUMAN)	Human Generated	Human Generated	Yes
-Text Entry 6 (HUMAN)	Human Generated	Human Generated	Yes
+  Text Entry	Prediction	Actual Result	Correct
+  Text Entry 1 (AI)	Human Generated	Human Generated	Yes
+  Text Entry 2 (AI)	Human Generated	Human Generated	Yes
+  Text Entry 3 (AI)	Human Generated	Human Generated	Yes
+  Text Entry 4 (HUMAN)	Human Generated	Human Generated	Yes
+  Text Entry 5 (HUMAN)	Human Generated	Human Generated	Yes
+  Text Entry 6 (HUMAN)	Human Generated	Human Generated	Yes
 
 Result: Detection program failed to identify Ai generated text. The detection based on the selected criteria did not work effectively, despite being the typical criteria for detecting AI-generated text especially for examples like entry 3, which are meant to emulate a news article. 
 
@@ -69,14 +69,15 @@ Step 6: Reflection Report:
 a.	The Program was not able to distinguish between Ai and human generated text.
 b.	Despite multiple selections from the generated trait list the program was never able to reliably identify the Ai generated text.
 2.	Feature Analysis: 
-a.	Repetition or Redundancy: AI-generated text tends to have much more repetitive phrases or redundant language/descriptions, however due to constantly evolving language models, this becomes less apparent, even when analyzing large entries. (Entry 2 was three paragraphs)
-b.	Perfect grammar and Syntax: Humans tend to make grammar or syntax mistakes when writing, even in commercially published works. Especially in young adult fiction, as displayed in entry 5, authors tend to take liberties with grammar and punctuation rules. Ai models work within more restrictive rules, which created a more obvious path for detection. These details were easy to spot with the human eye but were not detected by the program.
-c.	Unusual Word Choices: Ai models are more likely to generate formal language and work from extensive word libraries. Words that your typical contemporary author would not use may appear in AI generated works.
+  a.	Repetition or Redundancy: AI-generated text tends to have much more repetitive phrases or redundant language/descriptions,             however due to constantly evolving language models, this becomes less apparent, even when analyzing large entries. (Entry 2 was       three paragraphs)
+  b.	Perfect grammar and Syntax: Humans tend to make grammar or syntax mistakes when writing, even in commercially published works.         Especially in young adult fiction, as displayed in entry 5, authors tend to take liberties with grammar and punctuation rules.         Ai models work within more restrictive rules, which created a more obvious path for detection. These details were easy to spot         with the human eye but were not detected by the program.
+  c.	Unusual Word Choices: Ai models are more likely to generate formal language and work from extensive word libraries. Words that         your typical contemporary author would not use may appear in AI generated works.
 3.	Limitations and Improvements: 
-a.	Limitations: The program was limited to a small data pool, limiting its applicability and ability to analyze native language to determine the source based on the criteria. Larger Text samples may give the program an opportunity to analyze the writing style and determine the source. 
-b.	Improvements: Adding features like style analysis or subject matter consistency may improve detection. Expanding the data set and material could enhance accuracy.
+    a.	Limitations: The program was limited to a small data pool, limiting its applicability and ability to analyze native language           to determine the source based on the criteria. Larger Text samples may give the program an opportunity to analyze the writing           style and determine the source. 
+  b.	Improvements: Adding features like style analysis or subject matter consistency may improve detection. Expanding the data set           and material could enhance accuracy.
 
 Conclusion: Despite the newness of AI text generation for things like works of novelization and non-fiction article generation, the rapid improvement of current language generation models make detection even for the AI that generated it. As AI language models become more complex it will only get harder to detect AI-generated content especially in text-form. The naturalization of language and syntax in the examples generated by DeepSeek (Entries 1-3) serve to highlight the quality of work that can be found in these AI models. After running this program, I asked DeepSeek directly whether the response it created (Entry 3)  was written by an AI. While it came up with compelling reasons to doubt based on the content, it also gave compelling reasons for human generation and truth see the prompt and response below: 
+
 “Is this written by AI: In a startling turn of events, Dr. Elena Martinez, a renowned research scientist at the Quantum Physics Institute, inadvertently created a microscopic black hole during a high-energy particle collision experiment. The incident, which occurred late Tuesday evening, has sent shockwaves through the scientific community. Initial reports suggest that the black hole, though minuscule, exhibited unexpected stability, raising concerns about its potential growth and the implications for Earth's safety. Emergency protocols were swiftly enacted, and the research facility has been placed under strict quarantine while international experts assess the situation. Dr. Martinez, visibly shaken, stated, "This was never our intention. We were exploring the boundaries of quantum mechanics, but nature has reminded us of its unpredictable power." Authorities are urging calm as investigations continue, but the event has already sparked heated debates about the ethics and risks of advanced scientific experimentation.”
 Response: 
 “Determining whether a specific text is written by AI can be challenging without direct evidence, but there are some clues that might suggest AI involvement. Here are a few observations about the text you provided:
@@ -92,7 +93,8 @@ Response:
 5. **Ethical and Philosophical Undertones**: The text touches on ethical considerations and the unpredictability of nature, themes that are commonly explored in AI-generated content to add depth and provoke thought.
 
 While these observations might suggest that the text could be AI-generated, it's also possible that a human writer could produce similar content. Without definitive proof, the best we can do is make an educated guess. If you have access to the source or context of the text, that might provide additional clues.
-
 In summary, the text could very well be written by AI, but it's not possible to say for certain without more information.”
+
+
 While widening the parameters may  increase accuracy, the likelihood of human generated content being labeled AI generated would also increase. Which poses the ultimate question: if the AI and the AI generated program can’t tell, how can the human eye?
 
