@@ -1,9 +1,0 @@
-//Entry 1: AI Generated Paragraph (DeepSeek)
-//Prompt: Write a paragraph from a book about a boy that explores crystal caverns
-//Generated Response:
-
-Beneath the surface of the earth, where sunlight dared not tread, twelve-year-old Elias ventured into the heart of the crystal caverns, his lantern casting flickering shadows on walls that sparkled like 
-a thousand frozen stars. The air was cool and damp, carrying the faint scent of minerals and ancient secrets. Around him, towering columns of amethyst and quartz rose like the bones of the earth itself, 
-their jagged edges catching the light and scattering it into a kaleidoscope of colors. Elias’s heart raced with a mix of awe and trepidation as he ran his fingers along the smooth, glassy surface of a crystal,
-feeling the pulse of something ancient and alive beneath his touch. He had always been drawn to the unknown, to the places others feared to explore, but here, in the depths of the caverns, he couldn’t shake the 
-feeling that the crystals were watching him, waiting for him to uncover the truth they had guarded for millennia.
